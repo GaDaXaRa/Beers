@@ -10,8 +10,18 @@
 
 @implementation Beer
 
+@synthesize country = _country;
+
+- (void)setCountry:(NSString *)country {
+    _country = country;
+}
+
+- (NSString *)country {
+    return _country;
+}
+
 - (void)printBeerInfo {
-    NSLog([NSString stringWithFormat:@"name: %@, color: %@, alcohol: %d", name, color, grade]);
+    NSLog([NSString stringWithFormat:@"name: %@, color: %@, alcohol: %lu", self.name, self.color, (unsigned long)self.grade]);
 }
 
 - (void)printBeerInfoWithHeader:(NSString *)header {

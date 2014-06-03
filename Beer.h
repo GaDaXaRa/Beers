@@ -8,11 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Beer : NSObject {
-    NSString *name;
-    NSString *color;
-    NSUInteger grade;
-}
+@interface Beer : NSObject
+
+#pragma mark - Properties
+
+@property(nonatomic, strong)NSString *name;
+@property(nonatomic, strong)NSString *color;
+@property NSUInteger grade;
+@property(nonatomic, strong) NSString *country;
+
+#pragma mark - Methods
 
 - (void)printBeerInfo;
 
