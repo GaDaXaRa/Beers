@@ -10,5 +10,13 @@
 
 @implementation EuroCalculatorViewController
 
+- (IBAction)numberPressed:(id)sender {
+    if (![sender isKindOfClass:[UIButton class]]) {
+        return;
+    }
+    
+    UIButton *buttonPressed = (UIButton *) sender;
+    NSLog(@"%ld",(long)buttonPressed.tag);
+}
 
 @end
