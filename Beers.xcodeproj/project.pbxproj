@@ -25,6 +25,9 @@
 		3F07306A193CD20F007E1A3A /* Beer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F073069193CD20F007E1A3A /* Beer.m */; };
 		3F5DA124193E0B8800A7B3DF /* EuroCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5DA123193E0B8800A7B3DF /* EuroCalculatorViewController.m */; };
 		3F5DA127193E0CB300A7B3DF /* EuroConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5DA126193E0CB300A7B3DF /* EuroConverterViewController.m */; };
+		3FF90AF7193E25CE00598BBA /* AlphaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF90AF6193E25CE00598BBA /* AlphaViewController.m */; };
+		3FF90AF9193E28CC00598BBA /* Robert-Pattinson-Minion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FF90AF8193E28CC00598BBA /* Robert-Pattinson-Minion.jpg */; };
+		3FF90AFB193E2C6C00598BBA /* batman-cat-face.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FF90AFA193E2C6C00598BBA /* batman-cat-face.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,10 @@
 		3F5DA123193E0B8800A7B3DF /* EuroCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroCalculatorViewController.m; sourceTree = "<group>"; };
 		3F5DA125193E0CB300A7B3DF /* EuroConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroConverterViewController.h; sourceTree = "<group>"; };
 		3F5DA126193E0CB300A7B3DF /* EuroConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroConverterViewController.m; sourceTree = "<group>"; };
+		3FF90AF5193E25CE00598BBA /* AlphaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphaViewController.h; sourceTree = "<group>"; };
+		3FF90AF6193E25CE00598BBA /* AlphaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlphaViewController.m; sourceTree = "<group>"; };
+		3FF90AF8193E28CC00598BBA /* Robert-Pattinson-Minion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Robert-Pattinson-Minion.jpg"; sourceTree = "<group>"; };
+		3FF90AFA193E2C6C00598BBA /* batman-cat-face.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "batman-cat-face.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +126,8 @@
 				3F5DA123193E0B8800A7B3DF /* EuroCalculatorViewController.m */,
 				3F5DA125193E0CB300A7B3DF /* EuroConverterViewController.h */,
 				3F5DA126193E0CB300A7B3DF /* EuroConverterViewController.m */,
+				3FF90AF5193E25CE00598BBA /* AlphaViewController.h */,
+				3FF90AF6193E25CE00598BBA /* AlphaViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -170,6 +179,8 @@
 		3F073040193CCFFD007E1A3A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3FF90AFA193E2C6C00598BBA /* batman-cat-face.jpg */,
+				3FF90AF8193E28CC00598BBA /* Robert-Pattinson-Minion.jpg */,
 				3F073041193CCFFD007E1A3A /* Beers-Info.plist */,
 				3F073042193CCFFD007E1A3A /* InfoPlist.strings */,
 				3F073045193CCFFD007E1A3A /* main.m */,
@@ -271,6 +282,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF90AFB193E2C6C00598BBA /* batman-cat-face.jpg in Resources */,
+				3FF90AF9193E28CC00598BBA /* Robert-Pattinson-Minion.jpg in Resources */,
 				3F073044193CCFFD007E1A3A /* InfoPlist.strings in Resources */,
 				3F07304C193CCFFD007E1A3A /* Images.xcassets in Resources */,
 				3F00D9B9193E047B000DDADD /* Storyboard.storyboard in Resources */,
@@ -297,6 +310,7 @@
 				3F5DA127193E0CB300A7B3DF /* EuroConverterViewController.m in Sources */,
 				3F07304A193CCFFD007E1A3A /* AppDelegate.m in Sources */,
 				3F00D9B3193DC363000DDADD /* Person.m in Sources */,
+				3FF90AF7193E25CE00598BBA /* AlphaViewController.m in Sources */,
 				3F00D9B7193DE8C5000DDADD /* EuroConverter.m in Sources */,
 				3F073046193CCFFD007E1A3A /* main.m in Sources */,
 			);
