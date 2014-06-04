@@ -11,10 +11,18 @@
 
 @interface BeerList : NSObject
 
+#pragma mark - Initializers
+
 - (id)initWithBeerArray:(NSArray *)beerArray;
+
+#pragma mark - Instance Methods
 
 - (void)addBeer:(Beer *)beer;
 
 - (NSUInteger)count;
+
+- (void)removeBeer:(Beer *)beer;
+
+- (NSArray *)allBeers;
 
 @end

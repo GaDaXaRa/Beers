@@ -16,6 +16,8 @@
 
 @implementation BeerList
 
+#pragma mark - Initializers
+
 - (instancetype)init
 {
     return [self initWithBeerArray:@[]];
@@ -30,12 +32,22 @@
     return self;
 }
 
+#pragma mark - Instance Methods
+
 - (void)addBeer:(Beer *)beer {
     [self.beerList addObject:beer];
 }
 
+- (void)removeBeer:(Beer *)beer {
+    [self.beerList removeObject:beer];
+}
+
 - (NSUInteger)count {
     return [self.beerList count];
+}
+
+- (NSArray *)allBeers {
+    return self.beerList;
 }
 
 @end
