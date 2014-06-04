@@ -54,4 +54,12 @@
     toggle = !toggle;
 }
 
+#define URL @"http://diyfather.com/wp-content/uploads/darth-vader-cat1.jpg"
+
+- (IBAction)downloadImage:(id)sender {
+    NSURL *theUrl = [NSURL URLWithString:URL];
+    NSData *data = [NSData dataWithContentsOfURL:theUrl];
+    UIImage *downImage = [UIImage imageWithData:data];
+    self.imageField.image = downImage;
+}
 @end

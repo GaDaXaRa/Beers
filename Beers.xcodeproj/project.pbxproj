@@ -171,6 +171,7 @@
 				3F00D9BA193E08BA000DDADD /* View */,
 				3F00D9B4193DC461000DDADD /* Model */,
 				3F07304B193CCFFD007E1A3A /* Images.xcassets */,
+				3FCB5DEA193F037E008A39B9 /* assets */,
 				3F073040193CCFFD007E1A3A /* Supporting Files */,
 			);
 			path = Beers;
@@ -179,8 +180,6 @@
 		3F073040193CCFFD007E1A3A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3FF90AFA193E2C6C00598BBA /* batman-cat-face.jpg */,
-				3FF90AF8193E28CC00598BBA /* Robert-Pattinson-Minion.jpg */,
 				3F073041193CCFFD007E1A3A /* Beers-Info.plist */,
 				3F073042193CCFFD007E1A3A /* InfoPlist.strings */,
 				3F073045193CCFFD007E1A3A /* main.m */,
@@ -205,6 +204,15 @@
 				3F07305B193CCFFD007E1A3A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FCB5DEA193F037E008A39B9 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				3FF90AFA193E2C6C00598BBA /* batman-cat-face.jpg */,
+				3FF90AF8193E28CC00598BBA /* Robert-Pattinson-Minion.jpg */,
+			);
+			name = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
