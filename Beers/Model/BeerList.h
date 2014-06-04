@@ -11,6 +11,8 @@
 
 @interface BeerList : NSObject
 
+@property(nonatomic) NSUInteger count;
+
 #pragma mark - Initializers
 
 - (id)initWithBeerArray:(NSArray *)beerArray;
