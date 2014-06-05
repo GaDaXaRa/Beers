@@ -22,6 +22,10 @@
 		3F073055193CCFFD007E1A3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F07303D193CCFFD007E1A3A /* UIKit.framework */; };
 		3F07305D193CCFFD007E1A3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F07305B193CCFFD007E1A3A /* InfoPlist.strings */; };
 		3F07306A193CD20F007E1A3A /* Beer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F073069193CD20F007E1A3A /* Beer.m */; };
+		3F136E3719405FA0009D33E5 /* BeerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F136E3619405FA0009D33E5 /* BeerListViewController.m */; };
+		3F39155A194078AA00B169C4 /* PersonList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F391559194078AA00B169C4 /* PersonList.m */; };
+		3F39155C194079E500B169C4 /* PersonListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F39155B194079E500B169C4 /* PersonListTests.m */; };
+		3F39155E1940896B00B169C4 /* beerList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F39155D1940896B00B169C4 /* beerList.plist */; };
 		3F5DA124193E0B8800A7B3DF /* EuroCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5DA123193E0B8800A7B3DF /* EuroCalculatorViewController.m */; };
 		3F5DA127193E0CB300A7B3DF /* EuroConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5DA126193E0CB300A7B3DF /* EuroConverterViewController.m */; };
 		3F9CE60D193F7D82003ECF9D /* Hotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9CE60C193F7D82003ECF9D /* Hotel.m */; };
@@ -68,6 +72,12 @@
 		3F073068193CD20F007E1A3A /* Beer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beer.h; sourceTree = "<group>"; };
 		3F073069193CD20F007E1A3A /* Beer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beer.m; sourceTree = "<group>"; };
 		3F136E3419405C1B009D33E5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		3F136E3519405FA0009D33E5 /* BeerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerListViewController.h; sourceTree = "<group>"; };
+		3F136E3619405FA0009D33E5 /* BeerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerListViewController.m; sourceTree = "<group>"; };
+		3F391558194078AA00B169C4 /* PersonList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonList.h; sourceTree = "<group>"; };
+		3F391559194078AA00B169C4 /* PersonList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonList.m; sourceTree = "<group>"; };
+		3F39155B194079E500B169C4 /* PersonListTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonListTests.m; sourceTree = "<group>"; };
+		3F39155D1940896B00B169C4 /* beerList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = beerList.plist; sourceTree = "<group>"; };
 		3F5DA122193E0B8800A7B3DF /* EuroCalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroCalculatorViewController.h; sourceTree = "<group>"; };
 		3F5DA123193E0B8800A7B3DF /* EuroCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroCalculatorViewController.m; sourceTree = "<group>"; };
 		3F5DA125193E0CB300A7B3DF /* EuroConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroConverterViewController.h; sourceTree = "<group>"; };
@@ -122,6 +132,9 @@
 				3FCB5DF4193F353A008A39B9 /* BeerList.m */,
 				3F9CE60B193F7D82003ECF9D /* Hotel.h */,
 				3F9CE60C193F7D82003ECF9D /* Hotel.m */,
+				3F391558194078AA00B169C4 /* PersonList.h */,
+				3F391559194078AA00B169C4 /* PersonList.m */,
+				3F39155D1940896B00B169C4 /* beerList.plist */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -143,6 +156,8 @@
 				3F5DA126193E0CB300A7B3DF /* EuroConverterViewController.m */,
 				3FF90AF5193E25CE00598BBA /* AlphaViewController.h */,
 				3FF90AF6193E25CE00598BBA /* AlphaViewController.m */,
+				3F136E3519405FA0009D33E5 /* BeerListViewController.h */,
+				3F136E3619405FA0009D33E5 /* BeerListViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -211,6 +226,7 @@
 				3FCB5DEF193F261D008A39B9 /* PersonTests.m */,
 				3FCB5DF1193F3492008A39B9 /* BeerListTest.m */,
 				3F9CE60E193F7F31003ECF9D /* HotelTests.m */,
+				3F39155B194079E500B169C4 /* PersonListTests.m */,
 			);
 			path = BeersTests;
 			sourceTree = "<group>";
@@ -308,6 +324,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F39155E1940896B00B169C4 /* beerList.plist in Resources */,
 				3F073044193CCFFD007E1A3A /* InfoPlist.strings in Resources */,
 				3FCB5DEE193F149C008A39B9 /* Robert-Pattinson-Minion.jpg in Resources */,
 				3F07304C193CCFFD007E1A3A /* Images.xcassets in Resources */,
@@ -333,6 +350,7 @@
 			files = (
 				3F07306A193CD20F007E1A3A /* Beer.m in Sources */,
 				3F5DA124193E0B8800A7B3DF /* EuroCalculatorViewController.m in Sources */,
+				3F39155A194078AA00B169C4 /* PersonList.m in Sources */,
 				3F5DA127193E0CB300A7B3DF /* EuroConverterViewController.m in Sources */,
 				3F07304A193CCFFD007E1A3A /* AppDelegate.m in Sources */,
 				3F00D9B3193DC363000DDADD /* Person.m in Sources */,
@@ -341,6 +359,7 @@
 				3FCB5DF5193F353A008A39B9 /* BeerList.m in Sources */,
 				3F9CE60D193F7D82003ECF9D /* Hotel.m in Sources */,
 				3F073046193CCFFD007E1A3A /* main.m in Sources */,
+				3F136E3719405FA0009D33E5 /* BeerListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +369,7 @@
 			files = (
 				3FCB5DF0193F261D008A39B9 /* PersonTests.m in Sources */,
 				3FCB5DF2193F3492008A39B9 /* BeerListTest.m in Sources */,
+				3F39155C194079E500B169C4 /* PersonListTests.m in Sources */,
 				3F9CE60F193F7F31003ECF9D /* HotelTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

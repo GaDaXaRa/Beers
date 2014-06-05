@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="U6u-QN-7wm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="HfO-DE-WPv">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -162,6 +162,46 @@
             </objects>
             <point key="canvasLocation" x="-261" y="44"/>
         </scene>
+        <!--Beer List View Controller-->
+        <scene sceneID="jfC-kA-7Fi">
+            <objects>
+                <viewController id="HfO-DE-WPv" customClass="BeerListViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dU1-QV-vuc"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rdj-iA-lbN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BM0-Tp-YsK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ns2-E3-sUX">
+                                <rect key="frame" x="0.0" y="20" width="320" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="HfO-DE-WPv" id="8R5-TC-30A"/>
+                                    <outlet property="delegate" destination="HfO-DE-WPv" id="u6v-1h-9hJ"/>
+                                </connections>
+                            </pickerView>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0XQ-Dd-nev">
+                                <rect key="frame" x="0.0" y="298" width="320" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="HfO-DE-WPv" id="ozI-G4-D2i"/>
+                                    <outlet property="delegate" destination="HfO-DE-WPv" id="UrN-TH-nSi"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="personsPickerView" destination="0XQ-Dd-nev" id="BPP-EQ-C0p"/>
+                        <outlet property="pickerView" destination="Ns2-E3-sUX" id="smR-LR-sBc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nWj-ty-8vN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="937" y="44"/>
+        </scene>
         <!--Alpha View Controller-->
         <scene sceneID="Pnm-8H-OoQ">
             <objects>
@@ -214,7 +254,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JiH-1w-tBc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="583" y="44"/>
+            <point key="canvasLocation" x="518" y="44"/>
         </scene>
         <!--Euro Converter View Controller-->
         <scene sceneID="54Y-qY-kt1">

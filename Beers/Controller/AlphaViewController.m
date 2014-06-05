@@ -7,6 +7,7 @@
 //
 
 #import "AlphaViewController.h"
+#import "BeerList.h"
 
 @interface AlphaViewController ()
 
