@@ -67,6 +67,7 @@
 		3F07305C193CCFFD007E1A3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F073068193CD20F007E1A3A /* Beer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beer.h; sourceTree = "<group>"; };
 		3F073069193CD20F007E1A3A /* Beer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beer.m; sourceTree = "<group>"; };
+		3F136E3419405C1B009D33E5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		3F5DA122193E0B8800A7B3DF /* EuroCalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroCalculatorViewController.h; sourceTree = "<group>"; };
 		3F5DA123193E0B8800A7B3DF /* EuroCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroCalculatorViewController.m; sourceTree = "<group>"; };
 		3F5DA125193E0CB300A7B3DF /* EuroConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroConverterViewController.h; sourceTree = "<group>"; };
@@ -149,6 +150,7 @@
 		3F07302D193CCFFD007E1A3A = {
 			isa = PBXGroup;
 			children = (
+				3F136E3419405C1B009D33E5 /* README.md */,
 				3F07303F193CCFFD007E1A3A /* Beers */,
 				3F073058193CCFFD007E1A3A /* BeersTests */,
 				3F073038193CCFFD007E1A3A /* Frameworks */,
