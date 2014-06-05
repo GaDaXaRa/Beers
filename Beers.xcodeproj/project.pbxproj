@@ -24,6 +24,8 @@
 		3F07306A193CD20F007E1A3A /* Beer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F073069193CD20F007E1A3A /* Beer.m */; };
 		3F5DA124193E0B8800A7B3DF /* EuroCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5DA123193E0B8800A7B3DF /* EuroCalculatorViewController.m */; };
 		3F5DA127193E0CB300A7B3DF /* EuroConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5DA126193E0CB300A7B3DF /* EuroConverterViewController.m */; };
+		3F9CE60D193F7D82003ECF9D /* Hotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9CE60C193F7D82003ECF9D /* Hotel.m */; };
+		3F9CE60F193F7F31003ECF9D /* HotelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9CE60E193F7F31003ECF9D /* HotelTests.m */; };
 		3FCB5DED193F149A008A39B9 /* batman-cat-face.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FF90AFA193E2C6C00598BBA /* batman-cat-face.jpg */; };
 		3FCB5DEE193F149C008A39B9 /* Robert-Pattinson-Minion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FF90AF8193E28CC00598BBA /* Robert-Pattinson-Minion.jpg */; };
 		3FCB5DF0193F261D008A39B9 /* PersonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB5DEF193F261D008A39B9 /* PersonTests.m */; };
@@ -69,6 +71,9 @@
 		3F5DA123193E0B8800A7B3DF /* EuroCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroCalculatorViewController.m; sourceTree = "<group>"; };
 		3F5DA125193E0CB300A7B3DF /* EuroConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroConverterViewController.h; sourceTree = "<group>"; };
 		3F5DA126193E0CB300A7B3DF /* EuroConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroConverterViewController.m; sourceTree = "<group>"; };
+		3F9CE60B193F7D82003ECF9D /* Hotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hotel.h; sourceTree = "<group>"; };
+		3F9CE60C193F7D82003ECF9D /* Hotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hotel.m; sourceTree = "<group>"; };
+		3F9CE60E193F7F31003ECF9D /* HotelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelTests.m; sourceTree = "<group>"; };
 		3FCB5DEF193F261D008A39B9 /* PersonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTests.m; sourceTree = "<group>"; };
 		3FCB5DF1193F3492008A39B9 /* BeerListTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerListTest.m; sourceTree = "<group>"; };
 		3FCB5DF3193F353A008A39B9 /* BeerList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerList.h; sourceTree = "<group>"; };
@@ -114,6 +119,8 @@
 				3F00D9B6193DE8C5000DDADD /* EuroConverter.m */,
 				3FCB5DF3193F353A008A39B9 /* BeerList.h */,
 				3FCB5DF4193F353A008A39B9 /* BeerList.m */,
+				3F9CE60B193F7D82003ECF9D /* Hotel.h */,
+				3F9CE60C193F7D82003ECF9D /* Hotel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -201,6 +208,7 @@
 				3F073059193CCFFD007E1A3A /* Supporting Files */,
 				3FCB5DEF193F261D008A39B9 /* PersonTests.m */,
 				3FCB5DF1193F3492008A39B9 /* BeerListTest.m */,
+				3F9CE60E193F7F31003ECF9D /* HotelTests.m */,
 			);
 			path = BeersTests;
 			sourceTree = "<group>";
@@ -329,6 +337,7 @@
 				3FF90AF7193E25CE00598BBA /* AlphaViewController.m in Sources */,
 				3F00D9B7193DE8C5000DDADD /* EuroConverter.m in Sources */,
 				3FCB5DF5193F353A008A39B9 /* BeerList.m in Sources */,
+				3F9CE60D193F7D82003ECF9D /* Hotel.m in Sources */,
 				3F073046193CCFFD007E1A3A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +348,7 @@
 			files = (
 				3FCB5DF0193F261D008A39B9 /* PersonTests.m in Sources */,
 				3FCB5DF2193F3492008A39B9 /* BeerListTest.m in Sources */,
+				3F9CE60F193F7F31003ECF9D /* HotelTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
