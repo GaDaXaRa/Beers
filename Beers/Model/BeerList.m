@@ -23,6 +23,25 @@
     return [self initWithBeerArray:@[]];
 }
 
+- (id)initWithFile:(NSString *)fileName {
+    NSString *fileNameAndPath = [[NSBundle mainBundle] pathForResource:fileName ofType:@"plist"];
+    NSArray *arrayFromFile = [NSArray arrayWithContentsOfFile:fileNameAndPath];
+    
+    NSMutableArray *beersArrayFromFile = [[NSMutableArray alloc] init];
+    for (NSDictionary *dictionary in arrayFromFile) {
+        Beer *beer = [[Beer alloc] init];
+        
+        beer.name = dictionary[@"name"];
+        beer.grade = [dictionary[@"grade"] integerValue];
+        beer.color = dictionary[@"color"];
+        beer.country = dictionary[@"country"];
+        
+        [beersArrayFromFile addObject:beer];
+    }
+    
+    return [self initWithBeerArray:beersArrayFromFile];
+}
+
 //Designated initializer
 - (id)initWithBeerArray:(NSArray *)beerArray  {
     self = [super init];

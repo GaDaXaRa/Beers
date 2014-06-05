@@ -17,6 +17,8 @@
 
 - (id)initWithBeerArray:(NSArray *)beerArray;
 
+- (id)initWithFile:(NSString *)fileName;
+
 #pragma mark - Instance Methods
 
 - (void)addBeer:(Beer *)beer;

@@ -170,4 +170,17 @@
     XCTAssertEqual(1, [[beerList valueForKey:@"count"] integerValue], @"Expected %i, found %lu", 1, (unsigned long)[[beerList valueForKey:@"count"] integerValue]);
 }
 
+- (void)testCanCreateBeerListWithFile {
+    BeerList *beerList = [[BeerList alloc] initWithFile:@"beerList"];
+    XCTAssertNotNil(beerList, @"OMG 💀");
+    XCTAssertTrue([beerList count] > 0, @"");
+    
+    for (id obj in [beerList allBeers]) {
+        XCTAssertTrue([obj isKindOfClass:[Beer class]], @"Is not a beer! ☕️");
+        Beer *beer = (Beer *)obj;
+        XCTAssertTrue(beer.name, @"");
+        XCTAssertNotEqualObjects(beer.name, @"", @"");
+    }
+}
+
 @end

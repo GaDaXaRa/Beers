@@ -24,13 +24,7 @@
 
 - (BeerList *) beerList {
     if (_beerList == nil) {
-        _beerList = [[BeerList alloc] init];
-        for (int i = 0; i < 100; i++) {
-            Beer *beer = [[Beer alloc] init];
-            beer.name = [NSString stringWithFormat:@"🍺 Beer %d", i];
-            
-            [_beerList addBeer:beer];
-        }
+        _beerList = [[BeerList alloc] initWithFile:@"beerList"];
     }
     
     return _beerList;
@@ -41,11 +35,11 @@
         _people = [[PersonList alloc] init];
         for (int i = 0; i < 100; i++) {
             Person *person = [[Person alloc] init];
-            person.name = [NSString stringWithFormat:@"😐 Person %d", i];
+            person.name = [NSString stringWithFormat:@"Person %d", i];
             
             [_people addPerson:person];
         }
-    }
+    }    
     
     return _people;
 }
@@ -83,10 +77,10 @@
 - (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
     if ([pickerView isEqual:self.pickerView]){
         Beer *beer = [self.beerList allBeers][row];
-        return beer.name;
+        return [NSString stringWithFormat:@"🍺 %@", beer.name];
     } else {
         Person *person = [self.people allPeople][row];
-        return person.name;
+        return [NSString stringWithFormat:@"😐 %@",person.name];
     }
 }
 

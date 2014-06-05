@@ -21,7 +21,7 @@
 }
 
 - (void)printBeerInfo {
-    NSLog([NSString stringWithFormat:@"name: %@, color: %@, alcohol: %lu", self.name, self.color, (unsigned long)self.grade]);
+    NSLog(@"name: %@, color: %@, alcohol: %lu", self.name, self.color, (unsigned long)self.grade);
 }
 
 - (void)printBeerInfoWithHeader:(NSString *)header {
